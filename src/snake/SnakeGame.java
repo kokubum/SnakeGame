@@ -143,7 +143,7 @@ public class SnakeGame extends JPanel implements ActionListener{
 	
 	public void disposeTheGame() {
 		
-		if(JOptionPane.showConfirmDialog(frameGame, "DO YOU WANNA PLAY AGAIN?","GAME OVER",JOptionPane.YES_NO_OPTION)==JOptionPane.YES_OPTION) {
+		if(JOptionPane.showConfirmDialog(frameGame, "PONTUATION: " + dotsOfTheSnake + "\nDO YOU WANNA PLAY AGAIN?","GAME OVER",JOptionPane.YES_NO_OPTION)==JOptionPane.YES_OPTION) {
 			frameGame.dispose();
 			Game.main(null);
 		}
